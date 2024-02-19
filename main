@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+        <style>
+            #primero {
+                width: 300px; height: 450px;
+                position: static ; right: 50px; bottom: 50px;
+				border:10px solid #000000;
+				margin:10px;
+				padding:10px;
+				background-color:white;
+            }
+            #primer,#primer2{
+   color: black;           
+background: purple;         
+        margin: 12px 12px 12px 12px;
+        padding: 12px 0px 12px 12px; 
+        list-style: none
+
+		
+            }
+            #segundo{
+                height:360px;
+				width:420px;
+                position: absolute;
+                position: absolute ; right: 50px; top: 50px; 
+                background-color:royalblue; 
+              border: 15px solid whitesmoke; 
+              margin: 7px;
+              padding: 9px;
+            }
+            #segun,#segun2{
+   color: white;           
+background: red;         
+        margin: 12px 12px 12px 12px;
+        padding: 12px 0px 12px 12px; 
+        list-style: none  
+            }
+            #tercero{
+                background-color: greenyellow; 
+              border: 20px solid whitesmoke; 
+              margin:11px;
+              padding: 15px;
+              position: fixed ; right:50px; bottom: 50px;
+            }
+            #tercer,#tercer2{
+   color: black;           
+background:orange;         
+        margin: 12px 12px 12px 12px;
+        padding: 12px 0px 12px 12px; 
+        list-style: none  
+            }
+            #cuarto{
+
+                background-color: red; 
+              border: 30px solid aliceblue; 
+              margin:8px;
+              padding: 8px;
+              position: relative ; left: 50px; bottom: 50px;
+            }
+            #cuart,#cuart2{
+   color:yellow;           
+background:black;         
+        margin: 12px 12px 12px 12px;
+        padding: 12px 0px 12px 12px; 
+        list-style: none  
+            }
+            #quinto{
+                position: relative ; 
+                background-color: black; 
+              border: 11px solid aliceblue; 
+              margin:12px;
+              padding: 12px;
+            }
+            #cinco,#cinco2{
+   color:cyan;           
+background: gray;         
+        margin: 12px 12px 12px 12px;
+        padding: 12px 0px 12px 12px; 
+        list-style: none  
+            }
+            #ult{
+                color: cyan;
+                background-color: gray;
+            }
+
+
+
+        </style>
+    </head>
+    <body>
+        <h1>MODELOS DE CAJAS</h1>
+        <H3>by Uriel Miranda Gallardo</H3>
+        <div id="primero">
+            <h4> DEPORTES:</h4>
+            <p id="primer">¿Qué es el 'Street Workout'? 
+                Cada vez es más frecuente ver en los parques y en zonas al aire libre a 
+                personas realizando la práctica deportiva conocida como Street Workout, 
+                un deporte que se basa en la realización de ejercicios utilizando
+                 el propio peso del cuerpo tales como dominadas,
+                 flexiones o abdominales. 
+            </p>
+            <p id="primer2">Este deporte deriva de la calistenia, de la que se escogen 
+                los ejercicios básicos y se combinan con ejercicios acrobáticos</p>
+        </div>
+        <div id="segundo">
+            <h4> MUSICA</h4>
+            <p id="segun">Hip hop El hip hop​ o hiphop es una cultura originada 
+                en el sur del Bronx y Harlem, en la ciudad de Nueva York 
+                por afroamericanos durante la década de los 1970.</p>
+            <p id="segun2">El origen de la cultura se deriva de las fiestas callejeras 
+                por los Ghetto Brothers. Cuando se conectaban los amplificadores para 
+                sus instrumentos y altavoces en las farolas de la 163rd Street 
+                y Prospect Avenue. La misma idea de tomar energía de esta calle colgándose
+                 a las farolas las retomó DJ Kool Herc después de sus fiestas en la sala 
+                de recreo del condominio en el 1520 de Sedgwick Avenue Nueva York</p>
+        </div>
+        <div id="tercero">
+            <h4> AFICIONES</h4>
+            <p id="tercer">ESPORTS. Los esports (deportes electrónicos) son 
+                competiciones de videojuegos, donde se enfrentan o compiten  varios jugadores.  
+                Los esports pueden ser una afición de observación, asistiendo el aficionado
+                 como espectador a competiciones profesionales, online o presenciales</p>
+            <p id="tercer2">Lo esports como espectáculo son competiciones entre dos o más jugadores,
+                 en cierto tipo de  videojuegos, siendo los más populares League of Legends, 
+                StarCraft, Dota 2 ,Call of Duty, FIFA, Overwatch, Hearthstone, 
+                Smash Bros, Fortnite, Minecraft , CS GO, Clash Royale.
+                  Normalmente compiten en ligas  jugadores profesionales.</p>
+        </div>
+        <div id="cuarto">
+            <h4 >ARTISTAS</h4>
+            <p id="cuart">El artista es la persona que crea o produce obras de arte.
+                 Pueden coincidir en el mismo 
+                sujeto las capacidades del autor y artista, por supuesto.
+                 Un pintor o un cantautor reúnen ambas cualidades.Artista es un término descriptivo aplicado a 
+                 una persona que se dedique a una actividad 
+                 considerada como un arte. Un artista puede definirse también
+                  extraoficialmente como "una persona que se 
+                 expresa a sí mismo a través de un medio". </p>
+            <p id="cuart2">Un ejemplo de Artista podria ser Eminem Marshall Bruce Mathers III
+                más conocido como Eminem (estilizado como EMINƎM) 
+                Es un rapero, cantante, productor discográfico y actor estadounidense  considerado por varios medios como 
+                "El Rey Del Rap y Hip-Hop".
+                Lanzó su primer álbum de estudio Infinite en 1996, pero se hizo popular en 1999 con
+                 su segundo álbum, The Slim Shady LP, 
+                el cual ganó un premio Grammy por Mejor Álbum de Rap​
+                <p>
+        </div>
+        <div id=quinto> 
+            <h4 id="ult">MEDIO AMBIENTE</h4>
+            <p id="cinco">El medio ambiente es un sistema formado por elementos naturales y artificiales que están interrelacionados y que son modificados por la acción humana. Se trata del entorno que condiciona la forma de vida de la sociedad y que incluye valores naturales,
+                 sociales y culturales que existen en un lugar y momento determinado.</p>
+            <p id="cinco2">Características del medio ambiente
+                Organismos: conjuntos de individuos de diferentes especies, tanto animales como vegetales
+                Agua: tanto la presencia como la ausencia de este líquido vital, es algo que afecta de manera directa el equilibrio del medio ambiente
+                Aire: a partir de la composición química de este elemento, es que se pueden identificar estados de contaminación.
+                Temperatura: esta magnitud que hace referencia al calor que se mide por medio de un termómetro,
+                Accidentes geográficos: se trata de los elementos que constituyen el relieve de una zona,
+                Organismos vivos: Estos son pieza fundamental del medio ambiente, pues forman la acción directa en las alteraciones o mantenimiento de los procesos ambientales.
+               </p>
+        </div>
+    </body>
+</html>
